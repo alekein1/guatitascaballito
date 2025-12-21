@@ -5,20 +5,15 @@
     <title>Ingreso al Sistema | GuatitasPOS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
     <style>
         :root{
             --vino:#7a2d2d;
-            --mostaza:#d4a640;
             --crema:#faf7f2;
-            --oscuro:#2b1d1d;
         }
 
-        *{
-            box-sizing:border-box;
-        }
+        *{ box-sizing:border-box; }
 
         body{
             margin:0;
@@ -45,16 +40,15 @@
             margin-bottom:15px;
         }
 
-        .login-box h1{
-            font-size:26px;
+        h1{
             color:var(--vino);
             margin-bottom:5px;
         }
 
-        .login-box p{
-            font-size:14px;
+        p{
             color:#666;
             margin-bottom:30px;
+            font-size:14px;
         }
 
         .form-group{
@@ -62,14 +56,14 @@
             margin-bottom:18px;
         }
 
-        .form-group label{
+        label{
             font-size:14px;
             font-weight:600;
             margin-bottom:6px;
             display:block;
         }
 
-        .form-group input{
+        input{
             width:100%;
             padding:14px;
             border-radius:12px;
@@ -77,7 +71,7 @@
             font-size:16px;
         }
 
-        .btn-login{
+        button{
             margin-top:25px;
             width:100%;
             padding:15px;
@@ -88,10 +82,9 @@
             font-size:16px;
             font-weight:600;
             cursor:pointer;
-            transition:.3s;
         }
 
-        .btn-login:hover{
+        button:hover{
             background:#5a1f1f;
         }
 
@@ -102,6 +95,7 @@
             border-radius:10px;
             font-size:14px;
             margin-bottom:15px;
+            display:none;
         }
 
         footer{
@@ -120,23 +114,20 @@
     <h1>Acceso al Sistema</h1>
     <p>Administración · Caja · Pedidos</p>
 
-    {{-- Mensaje de error --}}
-    <div id="error-box" class="error" style="display:none;"></div>
+    <div id="errorBox" class="error"></div>
 
     <form id="loginForm">
         <div class="form-group">
             <label>Usuario</label>
-            <input type="text" id="usuario" placeholder="Ingrese su usuario" required>
+            <input type="text" id="usuario" required>
         </div>
 
         <div class="form-group">
             <label>Contraseña</label>
-            <input type="password" id="password" placeholder="Ingrese su contraseña" required>
+            <input type="password" id="password" required>
         </div>
 
-        <button type="submit" class="btn-login">
-            🔐 Ingresar
-        </button>
+        <button type="submit">🔐 Ingresar</button>
     </form>
 
     <footer>
@@ -146,44 +137,61 @@
 </div>
 
 <script>
-    const API_URL = "{{ env('API_URL') }}";
+/* =====================================================
+   🔐 BLOQUEO DE LOGIN SI YA HAY SESIÓN
+===================================================== */
+const API_URL = "{{ env('API_URL') }}";
+const token = localStorage.getItem('token');
 
-    document.getElementById('loginForm').addEventListener('submit', async function(e){
-        e.preventDefault();
+if (token) {
+    // Si hay token, asumimos sesión válida
+    // (la validación real la hace el layout)
+    window.location.replace("/dashboard");
+}
 
-        const usuario = document.getElementById('usuario').value;
-        const password = document.getElementById('password').value;
-        const errorBox = document.getElementById('error-box');
+/* =====================================================
+   🔐 LOGIN
+===================================================== */
+document.getElementById('loginForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
 
-        errorBox.style.display = 'none';
+    const usuario = document.getElementById('usuario').value.trim();
+    const password = document.getElementById('password').value.trim();
+    const errorBox = document.getElementById('errorBox');
 
-        try{
-            const response = await fetch(API_URL + '/admin/login', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ usuario, password })
-            });
+    errorBox.style.display = 'none';
 
-            const data = await response.json();
+    if (!usuario || !password) {
+        errorBox.innerText = '⚠️ Complete todos los campos';
+        errorBox.style.display = 'block';
+        return;
+    }
 
-            if(!response.ok){
-                throw new Error(data.message || 'Error de autenticación');
-            }
+    try {
+        const res = await fetch(API_URL + '/admin/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ usuario, password })
+        });
 
-            // Guardar sesión
-            localStorage.setItem('token', data.token);
-            localStorage.setItem('admin', JSON.stringify(data.admin));
+        const data = await res.json();
 
-            // Redirigir al dashboard
-            window.location.href = "/dashboard";
-
-        }catch(error){
-            errorBox.innerText = error.message;
-            errorBox.style.display = 'block';
+        if (!res.ok) {
+            throw new Error(data.message || 'Credenciales incorrectas');
         }
-    });
+
+        // Guardar sesión
+        localStorage.setItem('token', data.token);
+        localStorage.setItem('admin', JSON.stringify(data.admin));
+
+        // Ir al dashboard
+        window.location.replace("/dashboard");
+
+    } catch (err) {
+        errorBox.innerText = err.message;
+        errorBox.style.display = 'block';
+    }
+});
 </script>
 
 </body>

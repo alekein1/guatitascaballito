@@ -44,43 +44,58 @@ exports.obtenerProductosPorCategoria = async (req, res) => {
   try {
     const [rows] = await db.query(`
       SELECT 
-        c.id_categoria,
         c.nombre AS categoria,
         p.id_producto,
         p.nombre,
         p.precio,
-        p.imagen
+        p.imagen,
+        p.disponible
       FROM categorias c
       LEFT JOIN productos p 
         ON p.id_categoria = c.id_categoria
-        AND p.estado = 'ACTIVO'
+      WHERE p.disponible = 1
       ORDER BY c.id_categoria, p.nombre
     `);
 
-    // Agrupar por categoría
     const resultado = {};
 
-    rows.forEach(row => {
-      if (!resultado[row.categoria]) {
-        resultado[row.categoria] = [];
-      }
-
-      if (row.id_producto) {
-        resultado[row.categoria].push({
-          id_producto: row.id_producto,
-          nombre: row.nombre,
-          precio: row.precio,
-          imagen: row.imagen
-        });
-      }
+    rows.forEach(r => {
+      if (!resultado[r.categoria]) resultado[r.categoria] = [];
+      if (r.id_producto) resultado[r.categoria].push(r);
     });
 
     res.json(resultado);
 
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({
-      message: 'Error al obtener productos'
-    });
+  } catch (e) {
+    console.error(e);
+    res.status(500).json({ message:'Error' });
+  }
+};
+
+exports.toggleDisponible = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const [[p]] = await db.query(
+      `SELECT disponible FROM productos WHERE id_producto = ?`,
+      [id]
+    );
+
+    if (!p) {
+      return res.status(404).json({ message:'Producto no encontrado' });
+    }
+
+    const nuevo = p.disponible ? 0 : 1;
+
+    await db.query(
+      `UPDATE productos SET disponible = ? WHERE id_producto = ?`,
+      [nuevo, id]
+    );
+
+    res.json({ disponible: nuevo });
+
+  } catch (e) {
+    console.error(e);
+    res.status(500).json({ message:'Error al cambiar disponibilidad' });
   }
 };

@@ -16,6 +16,8 @@ router.post(
 );
 
 router.get("/", controller.obtenerProductosPorCategoria);
+router.put('/:id/toggle-disponible', controller.toggleDisponible);
+
 
 
 module.exports = router;

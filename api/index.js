@@ -8,6 +8,10 @@ const PORT = process.env.PORT || 4000;
 const RoutesAdmin = require('./routes/admin.routes')
 const RoutesProductos = require('./routes/productos.routes');
 const RoutesPedidos = require('./routes/pedidos.routes');
+const RouteImpresoras = require('./routes/impresoras.routes');
+const RoutesPedidosDia = require('./routes/pedidosDia.routes');
+const RoutesReportes = require('./routes/reportes.routes')
+
 
 
 // Middlewares
@@ -29,6 +33,9 @@ app.get('/', (req, res) => {
 app.use('/api/admin', RoutesAdmin);
 app.use('/api/productos', RoutesProductos);
 app.use('/api/pedidos', RoutesPedidos);
+app.use('/api/impresoras', RouteImpresoras);
+app.use('/api/pedidos-dia', RoutesPedidosDia);
+app.use('/api/reportes', RoutesReportes)
 
 
 // Iniciar servidor

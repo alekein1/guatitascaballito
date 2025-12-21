@@ -45,11 +45,6 @@
             margin-bottom:10px;
         }
 
-        .sidebar-header h3{
-            font-size:16px;
-            font-weight:600;
-        }
-
         .menu{
             flex:1;
             padding:20px;
@@ -66,13 +61,10 @@
             color:#fff;
             text-decoration:none;
             font-size:15px;
-            font-weight:500;
             transition:.2s;
         }
 
-        .menu a:hover{
-            background:var(--vino);
-        }
+        .menu a:hover{ background:var(--vino); }
 
         .menu a.active{
             background:var(--mostaza);
@@ -109,9 +101,7 @@
             cursor:pointer;
         }
 
-        .logout:hover{
-            background:#a93226;
-        }
+        .logout:hover{ background:#a93226; }
     </style>
 </head>
 
@@ -125,21 +115,12 @@
     </div>
 
     <div class="menu">
-        <a href="/dashboard" class="{{ request()->is('dashboard') ? 'active' : '' }}">
-            🏠 Dashboard
-        </a>
-        <a href="/productos" class="{{ request()->is('productos*') ? 'active' : '' }}">
-            🍽️ Productos
-        </a>
-        <a href="/impresoras" class="{{ request()->is('impresoras*') ? 'active' : '' }}">
-            🖨️ Impresoras
-        </a>
-        <a href="/pedidos" class="{{ request()->is('pedidos*') ? 'active' : '' }}">
-            🧾 Pedidos
-        </a>
-        <a href="/reportes">
-            📊 Reportes
-        </a>
+        <a href="/dashboard" class="{{ request()->is('dashboard') ? 'active' : '' }}">🏠 Dashboard</a>
+        <a href="/productos" class="{{ request()->is('productos*') ? 'active' : '' }}">🍽️ Productos</a>
+        <a href="/impresoras" class="{{ request()->is('impresoras*') ? 'active' : '' }}">🖨️ Impresoras</a>
+        <a href="/pedidos" class="{{ request()->is('pedidos*') ? 'active' : '' }}">🧾 POS Ventas</a>
+        <a href="/pedidos-dia" class="{{ request()->is('pedidos-dia*') ? 'active' : '' }}">📋 Pedidos del Día</a>
+        <a href="/reportes" class="{{ request()->is('reportes*') ? 'active' : '' }}">📊 Reportes</a>
     </div>
 </div>
 
@@ -148,7 +129,7 @@
 
     <div class="topbar">
         <h1>@yield('titulo')</h1>
-        <button class="logout" onclick="logout()">Cerrar sesión</button>
+        <button class="logout" id="logoutBtn">Cerrar sesión</button>
     </div>
 
     @yield('contenido')
@@ -156,18 +137,42 @@
 </div>
 
 <script>
-    // 🔐 PROTECCIÓN DE SESIÓN (FRONTEND)
-    const token = localStorage.getItem('token');
+/* =====================================================
+   🔐 PROTECCIÓN DE SESIÓN (MODELO SIC-CAM)
+===================================================== */
+const token = localStorage.getItem('token');
 
-    if(!token){
-        window.location.href = "/login";
-    }
+if (!token) {
+    window.location.href = "/login";
+}
 
-    function logout(){
-        localStorage.removeItem('token');
-        localStorage.removeItem('admin');
-        window.location.href = "/login";
-    }
+/* =====================================================
+   🚨 INTERCEPTOR GLOBAL FETCH
+   (expulsa SOLO si backend responde 401 / 403)
+===================================================== */
+(function () {
+    const originalFetch = window.fetch;
+
+    window.fetch = async function (...args) {
+        const response = await originalFetch(...args);
+
+        if (response.status === 401 || response.status === 403) {
+            alert('⚠️ Tu sesión ha expirado. Inicia sesión nuevamente.');
+            localStorage.clear();
+            window.location.href = '/login';
+        }
+
+        return response;
+    };
+})();
+
+/* =====================================================
+   🚪 LOGOUT LIMPIO Y DEFINITIVO
+===================================================== */
+document.getElementById('logoutBtn').addEventListener('click', () => {
+    localStorage.clear();
+    window.location.href = "/login";
+});
 </script>
 
 </body>

@@ -14,4 +14,5 @@ router.use(verifyToken, checkRole(["admin"]));
 ================================ */
 router.post("/", controller.crearPedido);
 
+router.post('/:id/reimprimir-factura', controller.reimprimirFactura);
 module.exports = router;

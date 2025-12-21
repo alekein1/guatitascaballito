@@ -25,3 +25,11 @@ Route::get('/impresoras',function () {
 Route::get('/pedidos',function () {
     return view('dashboard.pedidos');
 });
+
+Route::get('/pedidos-dia',function () {
+    return view('dashboard.pedidos-dia');
+});
+
+Route::get('/reportes',function () {
+    return view('dashboard.reportes');
+});
