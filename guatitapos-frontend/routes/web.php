@@ -33,3 +33,7 @@ Route::get('/pedidos-dia',function () {
 Route::get('/reportes',function () {
     return view('dashboard.reportes');
 });
+
+Route::get('/menu-digital', function () {
+    return view('menu');
+});

@@ -3,7 +3,7 @@ const cors = require('cors');
 const path = require("path");
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4008;
 
 const RoutesAdmin = require('./routes/admin.routes')
 const RoutesProductos = require('./routes/productos.routes');
@@ -11,7 +11,7 @@ const RoutesPedidos = require('./routes/pedidos.routes');
 const RouteImpresoras = require('./routes/impresoras.routes');
 const RoutesPedidosDia = require('./routes/pedidosDia.routes');
 const RoutesReportes = require('./routes/reportes.routes')
-
+const RoutesDashboard = require('./routes/dashboard.routes.js')
 
 
 // Middlewares
@@ -36,6 +36,7 @@ app.use('/api/pedidos', RoutesPedidos);
 app.use('/api/impresoras', RouteImpresoras);
 app.use('/api/pedidos-dia', RoutesPedidosDia);
 app.use('/api/reportes', RoutesReportes)
+app.use('/api/dashboard', RoutesDashboard)
 
 
 // Iniciar servidor

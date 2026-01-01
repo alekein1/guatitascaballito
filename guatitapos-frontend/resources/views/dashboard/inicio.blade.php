@@ -73,7 +73,8 @@
     <div class="card">
         <div class="card-icon bg-vino">🍽️</div>
         <div class="card-info">
-            <h3>24</h3>
+            <h3 id="totalProductos">0</h3>
+<span>Productos registrados</span>
             <span>Productos registrados</span>
         </div>
     </div>
@@ -81,7 +82,8 @@
     <div class="card">
         <div class="card-icon bg-mostaza">🧾</div>
         <div class="card-info">
-            <h3>18</h3>
+            <h3 id="pedidosHoy">0</h3>
+<span>Pedidos del día</span>
             <span>Pedidos del día</span>
         </div>
     </div>
@@ -89,7 +91,8 @@
     <div class="card">
         <div class="card-icon bg-verde">💵</div>
         <div class="card-info">
-            <h3>$124.50</h3>
+            <h3 id="ventasHoy">$0.00</h3>
+<span>Ventas hoy</span>
             <span>Ventas hoy</span>
         </div>
     </div>
@@ -97,7 +100,8 @@
     <div class="card">
         <div class="card-icon bg-azul">📦</div>
         <div class="card-info">
-            <h3>5</h3>
+            <h3 id="categoriasActivas">0</h3>
+<span>Categorías activas</span>
             <span>Categorías activas</span>
         </div>
     </div>
@@ -113,5 +117,30 @@
         rápido y ordenado.
     </p>
 </div>
+<script>
+const API_URL = "{{ env('API_URL') }}";
+const token = localStorage.getItem('token');
 
+async function cargarDashboard() {
+    try {
+        const res = await fetch(`${API_URL}/dashboard/estadisticas`, {
+            headers: {
+                'Authorization': 'Bearer ' + token
+            }
+        });
+
+        const data = await res.json();
+
+        document.getElementById('totalProductos').innerText = data.productos;
+        document.getElementById('pedidosHoy').innerText = data.pedidos_hoy;
+        document.getElementById('ventasHoy').innerText = `$${data.ventas_hoy.toFixed(2)}`;
+        document.getElementById('categoriasActivas').innerText = data.categorias;
+
+    } catch (e) {
+        console.error('Error cargando dashboard', e);
+    }
+}
+
+cargarDashboard();
+</script>
 @endsection
