@@ -1,0 +1,51 @@
+# =======================================
+# GLOBAL NODE.JS IGNORES
+# (Ignora cualquier carpeta node_modules en el repo)
+# =======================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar archivos de entorno globales
+.env
+.env.*
+
+
+# =======================================
+# BACKEND NODE.JS (api/)
+# =======================================
+api/node_modules/
+api/.env
+api/npm-debug.log*
+api/dist/
+api/build/
+
+
+# =======================================
+# LARAVEL FRONTEND (auto360suite-frontend/)
+# =======================================
+guatitaspos-frontend/vendor/
+guatitaspos-frontend/node_modules/
+guatitaspos-frontend/.env
+guatitaspos-frontend/public/storage
+guatitaspos-frontend/storage/*.key
+guatitaspos-frontend/storage/logs/
+guatitaspos-frontend/storage/framework/cache/data/
+guatitaspos-frontend/storage/framework/sessions/
+guatitaspos-frontend/storage/framework/views/
+guatitaspos-frontend/public/build/
+guatitaspos-frontend/composer.lock
+guatitaspos-frontend/package-lock.json
+
+
+# =======================================
+# OS Files (Mac)
+# =======================================
+.DS_Store
+
+# =======================================
+# Composer / Vite
+# =======================================
+composer.lock
+guatitaspos-frontend/public/build/
