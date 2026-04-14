@@ -1,0 +1,1326 @@
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+node:internal/modules/cjs/loader:1215
+  throw err;
+  ^
+
+Error: Cannot find module 'axios'
+Require stack:
+- /home/guatitasca1/public_html/api/services/print.service.js
+- /home/guatitasca1/public_html/api/controllers/pedidos.controller.js
+- /home/guatitasca1/public_html/api/routes/pedidos.routes.js
+- /home/guatitasca1/public_html/api/index.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at Module._load (node:internal/modules/cjs/loader:1043:27)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/services/print.service.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/guatitasca1/public_html/api/services/print.service.js',
+    '/home/guatitasca1/public_html/api/controllers/pedidos.controller.js',
+    '/home/guatitasca1/public_html/api/routes/pedidos.routes.js',
+    '/home/guatitasca1/public_html/api/index.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v20.19.3
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228
+        throw new TypeError('argument handler must be a function')
+        ^
+
+TypeError: argument handler must be a function
+    at Route.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228:15)
+    at Router.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/routes/pedidos.routes.js:17:8)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:10:23)
+
+Node.js v20.19.3
+/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228
+        throw new TypeError('argument handler must be a function')
+        ^
+
+TypeError: argument handler must be a function
+    at Route.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228:15)
+    at Router.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/routes/pedidos.routes.js:17:8)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:10:23)
+
+Node.js v20.19.3
+/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228
+        throw new TypeError('argument handler must be a function')
+        ^
+
+TypeError: argument handler must be a function
+    at Route.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228:15)
+    at Router.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/routes/pedidos.routes.js:17:8)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:10:23)
+
+Node.js v20.19.3
+/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228
+        throw new TypeError('argument handler must be a function')
+        ^
+
+TypeError: argument handler must be a function
+    at Route.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228:15)
+    at Router.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/routes/pedidos.routes.js:17:8)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:10:23)
+
+Node.js v20.19.3
+/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228
+        throw new TypeError('argument handler must be a function')
+        ^
+
+TypeError: argument handler must be a function
+    at Route.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228:15)
+    at Router.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/routes/pedidos.routes.js:17:8)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:10:23)
+
+Node.js v20.19.3
+/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228
+        throw new TypeError('argument handler must be a function')
+        ^
+
+TypeError: argument handler must be a function
+    at Route.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228:15)
+    at Router.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/routes/pedidos.routes.js:17:8)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:10:23)
+
+Node.js v20.19.3
+/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228
+        throw new TypeError('argument handler must be a function')
+        ^
+
+TypeError: argument handler must be a function
+    at Route.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:228:15)
+    at Router.<computed> [as post] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:448:19)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/routes/pedidos.routes.js:17:8)
+    at Module._compile (node:internal/modules/cjs/loader:1529:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1613:10)
+    at Module.load (node:internal/modules/cjs/loader:1275:32)
+    at Module._load (node:internal/modules/cjs/loader:1096:12)
+    at Module.require (node:internal/modules/cjs/loader:1298:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (/home/guatitasca1/public_html/api/index.js:10:23)
+
+Node.js v20.19.3
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Solo se permiten imágenes
+    at fileFilter (/home/guatitasca1/public_html/api/middlewares/uploadProducto.middleware.js:21:8)
+    at wrappedFileFilter (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/index.js:44:7)
+    at Multipart.<anonymous> (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/multer/lib/make-middleware.js:132:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+Error: Connection lost: The server closed the connection.
+    at PromisePool.query (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/mysql2/lib/promise/pool.js:36:22)
+    at exports.crearPedido (/home/guatitasca1/public_html/api/controllers/pedidos.controller.js:44:33)
+    at Layer.handleRequest (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:117:3)
+    at handle (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/layer.js:152:17)
+    at /home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:295:15
+    at processParams (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:582:12)
+    at next (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:291:5) {
+  code: 'PROTOCOL_CONNECTION_LOST',
+  errno: undefined,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined
+}
+Error: Connection lost: The server closed the connection.
+    at PromisePool.query (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/mysql2/lib/promise/pool.js:36:22)
+    at exports.crearPedido (/home/guatitasca1/public_html/api/controllers/pedidos.controller.js:44:33)
+    at Layer.handleRequest (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:117:3)
+    at handle (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/layer.js:152:17)
+    at /home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:295:15
+    at processParams (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:582:12)
+    at next (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:291:5) {
+  code: 'PROTOCOL_CONNECTION_LOST',
+  errno: undefined,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined
+}
+Error: Connection lost: The server closed the connection.
+    at PromisePool.query (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/mysql2/lib/promise/pool.js:36:22)
+    at exports.crearPedido (/home/guatitasca1/public_html/api/controllers/pedidos.controller.js:44:33)
+    at Layer.handleRequest (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/layer.js:152:17)
+    at next (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/route.js:117:3)
+    at handle (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/lib/layer.js:152:17)
+    at /home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:295:15
+    at processParams (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:582:12)
+    at next (/home/guatitasca1/nodevenv/public_html/api/20/lib/node_modules/router/index.js:291:5) {
+  code: 'PROTOCOL_CONNECTION_LOST',
+  errno: undefined,
+  sql: undefined,
+  sqlState: undefined,
+  sqlMessage: undefined
+}
