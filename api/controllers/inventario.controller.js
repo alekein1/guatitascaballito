@@ -10,7 +10,7 @@ const {
   listarHistorialInventarioPorFecha,
   listarDiasRecientesHistorialInventario
 } = require('../services/inventario.service');
-const { obtenerFechaEcuador } = require('../utils/fechas');
+const { obtenerFechaOperativaEcuador } = require('../utils/fechas');
 
 function esFechaValida(fecha) {
   return /^\d{4}-\d{2}-\d{2}$/.test(fecha);
@@ -30,7 +30,7 @@ exports.obtenerInventario = async (req, res) => {
 
 exports.obtenerHistorialInventario = async (req, res) => {
   try {
-    const fecha = req.query.fecha || obtenerFechaEcuador();
+    const fecha = req.query.fecha || obtenerFechaOperativaEcuador();
 
     if (!esFechaValida(fecha)) {
       return res.status(400).json({

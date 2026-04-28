@@ -502,9 +502,35 @@ function cambiarTipo(id) {
 }
 
 function obtenerFechaEcuador() {
-    return new Intl.DateTimeFormat('en-CA', {
-        timeZone:'America/Guayaquil'
-    }).format(new Date());
+    const partes = new Intl.DateTimeFormat('en-CA', {
+        timeZone:'America/Guayaquil',
+        year:'numeric',
+        month:'2-digit',
+        day:'2-digit',
+        hour:'2-digit',
+        minute:'2-digit',
+        second:'2-digit',
+        hour12:false,
+        hourCycle:'h23'
+    }).formatToParts(new Date()).reduce((acumulado, parte) => {
+        if (parte.type !== 'literal') {
+            acumulado[parte.type] = Number(parte.value);
+        }
+
+        return acumulado;
+    }, {});
+
+    const fechaOperativa = new Date(Date.UTC(
+        partes.year,
+        partes.month - 1,
+        partes.day
+    ));
+
+    if (partes.hour < 2) {
+        fechaOperativa.setUTCDate(fechaOperativa.getUTCDate() - 1);
+    }
+
+    return fechaOperativa.toISOString().slice(0, 10);
 }
 
 function formatearFecha(fecha) {

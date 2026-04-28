@@ -1,13 +1,12 @@
 const db = require('../db/db');
+const { obtenerFechaOperativaEcuador } = require('../utils/fechas');
 
 /* ===============================
    📊 ESTADÍSTICAS DASHBOARD
 ================================ */
 exports.obtenerEstadisticas = async (req, res) => {
   try {
-    const fechaHoy = new Date().toLocaleDateString('en-CA', {
-      timeZone: 'America/Guayaquil'
-    });
+    const fechaHoy = obtenerFechaOperativaEcuador();
 
     // 1️⃣ Productos registrados
     const [[productos]] = await db.query(

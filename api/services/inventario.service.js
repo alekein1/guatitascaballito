@@ -1,5 +1,5 @@
 const db = require('../db/db');
-const { obtenerFechaEcuador } = require('../utils/fechas');
+const { obtenerFechaOperativaEcuador } = require('../utils/fechas');
 
 function normalizarFechaResultado(fecha) {
   if (!fecha) {
@@ -36,7 +36,7 @@ async function listarProductosConInventario(
   { soloDisponibles = false, idProducto = null } = {},
   connection = db
 ) {
-  const fecha = obtenerFechaEcuador();
+  const fecha = obtenerFechaOperativaEcuador();
   const params = [fecha];
 
   if (idProducto !== null) {

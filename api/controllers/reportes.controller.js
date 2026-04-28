@@ -1,13 +1,15 @@
 const db = require('../db/db');
+const {
+  obtenerFechaOperativaEcuador,
+  obtenerHoraEcuador
+} = require('../utils/fechas');
 
 /* ===============================
    📊 REPORTE DEL DÍA
 ================================ */
 exports.reporteHoy = async (req, res) => {
   try {
-    const fecha = new Date().toLocaleDateString('en-CA', {
-      timeZone: 'America/Guayaquil'
-    });
+    const fecha = obtenerFechaOperativaEcuador();
 
     const [[ventas]] = await db.query(
       `SELECT IFNULL(SUM(total),0) AS total_vendido
@@ -49,13 +51,8 @@ exports.crearEgreso = async (req, res) => {
       return res.status(400).json({ message: 'Datos incompletos' });
     }
 
-    const fecha = new Date().toLocaleDateString('en-CA', {
-      timeZone: 'America/Guayaquil'
-    });
-
-    const hora = new Date().toLocaleTimeString('en-GB', {
-      timeZone: 'America/Guayaquil'
-    });
+    const fecha = obtenerFechaOperativaEcuador();
+    const hora = obtenerHoraEcuador();
 
     await db.query(
       `INSERT INTO egresos (descripcion, monto, fecha, hora)
@@ -76,9 +73,7 @@ exports.crearEgreso = async (req, res) => {
 ================================ */
 exports.egresosHoy = async (req, res) => {
   try {
-    const fecha = new Date().toLocaleDateString('en-CA', {
-      timeZone: 'America/Guayaquil'
-    });
+    const fecha = obtenerFechaOperativaEcuador();
 
     const [rows] = await db.query(
       `SELECT id_egreso, descripcion, monto, hora
@@ -101,9 +96,7 @@ exports.egresosHoy = async (req, res) => {
 ================================ */
 exports.cerrarCaja = async (req, res) => {
   try {
-    const fecha = new Date().toLocaleDateString('en-CA', {
-      timeZone: 'America/Guayaquil'
-    });
+    const fecha = obtenerFechaOperativaEcuador();
 
     const [[ventas]] = await db.query(
       `SELECT IFNULL(SUM(total),0) AS total_vendido

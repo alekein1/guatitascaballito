@@ -1,5 +1,8 @@
 const db = require('../db/db');
-const { obtenerFechaEcuador, obtenerHoraEcuador } = require('../utils/fechas');
+const {
+  obtenerFechaOperativaEcuador,
+  obtenerHoraEcuador
+} = require('../utils/fechas');
 const { crearError } = require('../utils/inventario');
 
 exports.crearPedido = async (req, res) => {
@@ -151,7 +154,7 @@ exports.crearPedido = async (req, res) => {
     /* ===============================
        FECHA Y HORA ECUADOR
     ================================ */
-    const fechaEcuador = obtenerFechaEcuador();
+    const fechaEcuador = obtenerFechaOperativaEcuador();
     const horaEcuador = obtenerHoraEcuador();
 
     /* ===============================

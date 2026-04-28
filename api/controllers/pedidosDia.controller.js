@@ -1,13 +1,12 @@
 const db = require('../db/db');
+const { obtenerFechaOperativaEcuador } = require('../utils/fechas');
 
 /* ===============================
    📋 LISTAR PEDIDOS DEL DÍA
 ================================ */
 exports.listarPedidosHoy = async (req, res) => {
   try {
-    const fechaEcuador = new Date().toLocaleDateString('en-CA', {
-      timeZone: 'America/Guayaquil'
-    });
+    const fechaEcuador = obtenerFechaOperativaEcuador();
 
     const [pedidos] = await db.query(
       `SELECT 
